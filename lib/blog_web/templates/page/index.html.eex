@@ -1,35 +1,10 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>A productive web framework that<br/>does not compromise speed or maintainability.</p>
-</section>
+<div class="homepage">
+  <h1 class="homepage__text">
+      <strong>Hello</strong>
 
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
-      <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.4/CHANGELOG.md">v1.4 Changelog</a>
-      </li>
-    </ul>
-  </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
-      <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-    </ul>
-  </article>
-</section>
+      My name is Afopefoluwa Ojo and this scene is set in <strong>Amsterdam</strong>. If I were to describe myself with a <strong>word</strong> perhaps I would say <strong>multi-media artist</strong> but pfft all these definitive terms. Come talk to me about <strong>an idea</strong> or about a revolution or something as simple as: how does it feel to breathe crisp morning air on a winter morning.
+
+      Also <strong>fifi oddly</strong> is my doppleganger
+  </h1>
+
+</div>

@@ -1,0 +1,43 @@
+
+main {
+  width: 100%;
+  max-width: 100%;
+}
+
+header {
+  color: #05008A;
+  width: 90%;
+  margin-left: 80px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h1 {
+  color: #5F6C76;
+}
+
+.homepage__text {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 72px;
+  line-height: 86px;
+  /* or 150% */
+
+  color: #05008A;
+  width: 90%;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  strong {
+    color: transparent;
+    -webkit-text-stroke: 1px #05008A;
+    text-stroke: 1px #05008A;
+    font-weight: normal;
+  }
+}
+

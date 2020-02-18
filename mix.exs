@@ -45,6 +45,7 @@ defmodule Blog.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:pow, "~> 1.0.16"},
+      {:phoenix_live_view, "~> 0.6.0"},
     ]
   end
 
