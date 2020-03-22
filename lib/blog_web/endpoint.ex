@@ -2,7 +2,7 @@ defmodule BlogWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :blog
 
   socket "/socket", BlogWeb.UserSocket,
-    websocket: true,
+    websocket: [timeout: 45_000],
     longpoll: false
 
   socket "/live", Phoenix.LiveView.Socket
