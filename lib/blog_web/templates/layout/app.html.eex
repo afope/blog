@@ -6,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Blog · Phoenix Framework</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700,900&display=swap" rel="stylesheet">
+    <%= csrf_meta_tag() %>
+
   </head>
+
   <body>
-    <header>
-      <section class="container">
-        <nav role="navigation">
-          <ul>
-            <li><a href="https://hexdocs.pm/phoenix/overview.html">Get Started</a></li>
-          </ul>
-        </nav>
-        <a href="http://phoenixframework.org/" class="phx-logo">
-          <img src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>" alt="Phoenix Framework Logo"/>
-        </a>
-      </section>
-    </header>
-    <main role="main" class="container">
+    <main role="main">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns %>
     </main>
+    <footer>
+      <a href="mailto:fope.ojo@gmail.com?subject=Subject or nah?&body=Hey Afopefoluwa!"" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/envelope.svg") %>" ></a>
+      <a href="https://github.com/afope" target="_blank"><img  src="<%= Routes.static_path(@conn, "/images/github-square.svg") %>"></a>
+      <a href="https://www.instagram.com/abstractsth/" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/instagram-square.svg") %>"></a>
+      <a href="https://twitter.com/abstractsth" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/twitter.svg") %>"></a>
+      <a href="https://www.linkedin.com/in/afopefoluwa-ojo/" target="_blank"><img  src="<%= Routes.static_path(@conn, "/images/linkedin-in.svg") %>"></a>
+    </footer>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
