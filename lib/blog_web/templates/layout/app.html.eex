@@ -16,16 +16,18 @@
   </head>
 
   <body>
-  <header>
-    <p>
-      Afopefoluwa Ojo
-    </p>
-  </header>
     <main role="main">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns %>
     </main>
+    <footer>
+      <a href="mailto:fope.ojo@gmail.com?subject=Subject or nah?&body=Hey Afopefoluwa!"" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/envelope.svg") %>" ></a>
+      <a href="https://github.com/afope" target="_blank"><img  src="<%= Routes.static_path(@conn, "/images/github-square.svg") %>"></a>
+      <a href="https://www.instagram.com/abstractsth/" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/instagram-square.svg") %>"></a>
+      <a href="https://twitter.com/abstractsth" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/twitter.svg") %>"></a>
+      <a href="https://www.linkedin.com/in/afopefoluwa-ojo/" target="_blank"><img  src="<%= Routes.static_path(@conn, "/images/linkedin-in.svg") %>"></a>
+    </footer>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>

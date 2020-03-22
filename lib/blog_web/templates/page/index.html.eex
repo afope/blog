@@ -1,10 +1,112 @@
 <div class="homepage">
   <h1 class="homepage__text">
-      <strong>Hello</strong>
+          <strong >
+              <a class="hoverWrapper">Hello</a>
+              <iframe class="hello__video" width="560" height="315" src="https://www.youtube.com/embed/YQHsXMglC9A?start=75" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </strong>
 
-      My name is Afopefoluwa Ojo and this scene is set in <strong>Amsterdam</strong>. If I were to describe myself with a <strong>word</strong> perhaps I would say <strong>multi-media artist</strong> but pfft all these definitive terms. Come talk to me about <strong>an idea</strong> or about a revolution or something as simple as: how does it feel to breathe crisp morning air on a winter morning.
 
-      Also <strong>fifi oddly</strong> is my doppleganger
+      My name is
+          <strong class="link-hover__container">
+          <span class="hoverWrapper-one">a</span>
+          <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/image_four.png") %>">
+          <span href="" class="hoverWrapper-two">f</span>
+          <img class="name-hover__two" src="<%= Routes.static_path(@conn, "/images/image_two.png") %>">
+          <span href="" class="hoverWrapper-three">o</span>
+          <img class="name-hover__three" src="<%= Routes.static_path(@conn, "/images/image_three.png") %>">
+          <span href="" class="hoverWrapper-four">p</span>
+          <img class="name-hover__four" src="<%= Routes.static_path(@conn, "/images/image_five.png") %>">
+          <span href="" class="hoverWrapper-five">e</span>
+          <img class="name-hover__five" src="<%= Routes.static_path(@conn, "/images/image_six.png") %>">
+          <span href="" class="hoverWrapper-six">f</span>
+          <img class="name-hover__six" src="<%= Routes.static_path(@conn, "/images/image_seven.png") %>">
+          <span href="" class="hoverWrapper-seven">o</span>
+          <img class="name-hover__seven" src="<%= Routes.static_path(@conn, "/images/image_eight.png") %>">
+          <span href="" class="hoverWrapper-eight">l</span>
+          <img class="name-hover__eight" src="<%= Routes.static_path(@conn, "/images/image_nine.png") %>">
+          <span href="" class="hoverWrapper-nine">u</span>
+          <img class="name-hover__nine" src="<%= Routes.static_path(@conn, "/images/image_ten.png") %>">
+          <span href="" class="hoverWrapper-ten">w</span>
+          <img class="name-hover__ten" src="<%= Routes.static_path(@conn, "/images/image_eleven.png") %>">
+          <span href="" class="hoverWrapper-eleven">a</span>
+          <img class="name-hover__eleven" src="<%= Routes.static_path(@conn, "/images/image_ten.png") %>">
+      </strong>
+      and this <strong class="link-hover__container">
+      <span class="hoverWrapper-one">s</span>
+      <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/scene_1.png") %>">
+      <span href="" class="hoverWrapper-two">c</span>
+      <img class="name-hover__two" src="<%= Routes.static_path(@conn, "/images/scene_one.png") %>">
+      <span href="" class="hoverWrapper-three">e</span>
+      <img class="name-hover__three" src="<%= Routes.static_path(@conn, "/images/scene_two.png") %>">
+      <span href="" class="hoverWrapper-four">n</span>
+      <img class="name-hover__four" src="<%= Routes.static_path(@conn, "/images/scene_three.png") %>">
+      <span href="" class="hoverWrapper-five">e</span>
+      <img class="name-hover__five" src="<%= Routes.static_path(@conn, "/images/scene_five.png") %>">
+  </strong> is set in <strong class="link-hover__container">
+      <span class="hoverWrapper-one">a</span>
+      <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/amsterdam_one.png") %>">
+      <span href="" class="hoverWrapper-two">m</span>
+      <span href="" class="hoverWrapper-three">s</span>
+      <span href="" class="hoverWrapper-four">t</span>
+      <span href="" class="hoverWrapper-five">e</span>
+      <span href="" class="hoverWrapper-five">r</span>
+      <span href="" class="hoverWrapper-five">d</span>
+      <span href="" class="hoverWrapper-five">a</span>
+      <span href="" class="hoverWrapper-five">m </span>
+      <img class="name-hover__five" src="<%= Routes.static_path(@conn, "/images/amsterdam_two.png") %>">
+  </strong> //
+      <strong class="link-hover__container">
+          <span class="hoverWrapper-one"> l</span>
+          <img class="name-hover__one lagos" src="<%= Routes.static_path(@conn, "/images/lagos_one.png") %>">
+          <span href="" class="hoverWrapper-two">a</span>
+          <img class="name-hover__two lagos" src="<%= Routes.static_path(@conn, "/images/lagos_two.png") %>">
+          <span href="" class="hoverWrapper-three">g</span>
+          <img class="name-hover__three lagos" src="<%= Routes.static_path(@conn, "/images/lagos_three.png") %>">
+          <span href="" class="hoverWrapper-four">o</span>
+          <img class="name-hover__four lagos" src="<%= Routes.static_path(@conn, "/images/lagos_four.png") %>">
+          <span href="" class="hoverWrapper-five">s</span>
+          <img class="name-hover__five lagos" src="<%= Routes.static_path(@conn, "/images/lagos_five.png") %>">
+      </strong>; on most days I feel like <strong class="link-hover__container">
+      <a class="hoverWrapper-one">
+          somethign abstract
+      </a>
+      <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/abstract_one.png") %>">
+  </strong>. I have spent the past few years          <strong class="link-hover__container">
+      <span class="hoverWrapper-one">c</span>
+      <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/creating_one.png") %>">
+      <span href="" class="hoverWrapper-two">r</span>
+      <img class="name-hover__two" src="<%= Routes.static_path(@conn, "/images/creating_two.png") %>">
+      <span href="" class="hoverWrapper-three">e</span>
+      <img class="name-hover__three" src="<%= Routes.static_path(@conn, "/images/creating_three.png") %>">
+      <span href="" class="hoverWrapper-four">a</span>
+      <img class="name-hover__four" src="<%= Routes.static_path(@conn, "/images/creating_four.png") %>">
+      <span href="" class="hoverWrapper-five">t</span>
+      <img class="name-hover__five" src="<%= Routes.static_path(@conn, "/images/creating_five.png") %>">
+      <span href="" class="hoverWrapper-six">i</span>
+      <img class="name-hover__six" src="<%= Routes.static_path(@conn, "/images/creating_six.png") %>">
+      <span href="" class="hoverWrapper-seven">n</span>
+      <img class="name-hover__seven" src="<%= Routes.static_path(@conn, "/images/creating_seven.png") %>">
+      <span href="" class="hoverWrapper-eight">g</span>
+      <img class="name-hover__eight" src="<%= Routes.static_path(@conn, "/images/creating_eight.png") %>">
+  </strong>, writing <strong class="link-hover__container">
+      <span class="hoverWrapper">my </span>
+      <iframe src="https://giphy.com/embed/mCRJDo24UvJMA" width="480" height="348" frameBorder="0" class="hello__video" allowFullScreen></iframe>
+  </strong>
+
+      <strong class="link-hover__container">
+          <span class="hoverWrapper-one">
+              debut(?)
+          </span>
+          <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/debut_one.png") %>">
+      </strong>
+
+      <strong class="link-hover__container">
+      <span class="hoverWrapper">novel</span>
+      <iframe src="https://giphy.com/embed/ule4vhcY1xEKQ" width="480" height="480" frameBorder="0" class="hello__video" allowFullScreen></iframe><a href="https://giphy.com/gifs/reactionseditor-cat-typing-ule4vhcY1xEKQ"></a>
+  </strong> and tinkering with technology. I currently work in the
+      <strong class="link-hover__container">
+          <button class="blockchain__button"><span class="blockchain__span">blockchain space</span></button>
+      </strong>
   </h1>
 
 </div>
