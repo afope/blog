@@ -8,6 +8,7 @@
     "test": "test"
   },
   "dependencies": {
+    "heroku": "^7.39.1",
     "netlify-cli": "^2.40.0"
   },
   "devDependencies": {},
