@@ -103,5 +103,7 @@
     <orderEntry type="library" name="comeonin_i18n" level="project" />
     <orderEntry type="library" name="pow" level="project" />
     <orderEntry type="library" name="credo" level="project" />
+    <orderEntry type="library" name="phoenix_live_view" level="project" />
+    <orderEntry type="library" name="floki" level="project" />
   </component>
 </module>

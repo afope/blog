@@ -1,0 +1,312 @@
+
+main {
+  width: 100%;
+  max-width: 100%;
+}
+
+header {
+  color: #05008A;
+  width: 90%;
+  margin-left: 80px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h1 {
+  color: #5F6C76;
+}
+
+.homepage__text {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 72px;
+  line-height: 86px;
+  /* or 150% */
+
+  color: #05008A;
+  width: 90%;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  strong {
+    color: transparent;
+    -webkit-text-stroke: 1px #05008A;
+    text-stroke: 1px #05008A;
+    font-weight: normal;
+  }
+
+  .hello__video {
+    display: none;
+  }
+
+  .hoverWrapper:hover {
+    z-index: 999;
+  }
+
+  .hoverWrapper:hover + .hello__video {
+    display: block;
+    position: fixed;
+    top: 3%;
+    left: 3%;
+    z-index: 7;
+    width: 400px;
+    height: 400px;
+  }
+
+  a {
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 1px #05008A;
+    text-stroke: 1px #05008A;
+    font-weight: normal;
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  a:visited {
+    color: transparent;
+    -webkit-text-stroke: 1px #05008A;
+    text-stroke: 1px #05008A;
+    font-weight: normal;
+  }
+
+  img {
+    display: none;
+  }
+
+  .hoverWrapper:hover {
+    z-index: 999;
+  }
+
+  .hoverWrapper-one {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hoverWrapper-two {
+    position: relative;
+  }
+
+  .hoverWrapper-three {
+    position: relative;
+  }
+
+  .hoverWrapper-four {
+    position: relative;
+  }
+
+  .hoverWrapper-five {
+    position: relative;
+  }
+
+  .hoverWrapper-six {
+    position: relative;
+  }
+
+  .hoverWrapper-seven {
+    position: relative;
+  }
+
+  .hoverWrapper-eight {
+    position: relative;
+  }
+
+  .hoverWrapper-nine {
+    position: relative;
+  }
+
+  .hoverWrapper-ten {
+    position: relative;
+  }
+
+  .hoverWrapper-eleven {
+    position: relative;
+  }
+
+  .hoverWrapper-one:hover + .name-hover__one {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: white;
+    margin: 15px;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    pointer: cursor;
+  }
+
+  .hoverWrapper-two:hover + .name-hover__two {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .hoverWrapper-three:hover + .name-hover__three {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .hoverWrapper-four:hover + .name-hover__four {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .hoverWrapper-five:hover + .name-hover__five {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .hoverWrapper-six:hover + .name-hover__six {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .hoverWrapper-seven:hover + .name-hover__seven {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .hoverWrapper-eight:hover + .name-hover__eight {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .hoverWrapper-nine:hover + .name-hover__nine {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .hoverWrapper-ten:hover + .name-hover__ten {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .hoverWrapper-eleven:hover + .name-hover__eleven {
+    display: block;
+    z-index: 7;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background: white;
+  }
+
+  .link-hover__container {
+    display: inline-flex;
+    z-index: 999;
+    position: relative;
+  }
+
+  .lagos {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .blockchain__button {
+    width:auto;
+    font-size: 5rem;
+    color: #ff6ec7;
+  }
+  .blockchain__button:hover .blockchain__span {
+    display:none;
+  }
+  .blockchain__button:hover:before {
+    content:"The revolution is here!"
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  img {
+    fill: #ff6ec7;
+    color: #ff6ec7;
+    max-width: 100%;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+  }
+}

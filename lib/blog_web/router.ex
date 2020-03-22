@@ -6,6 +6,7 @@ defmodule BlogWeb.Router do
     plug :accepts, ["html"]
     plug :fetch_session
     plug :fetch_flash
+    plug Phoenix.LiveView.Flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
   end
@@ -25,6 +26,7 @@ defmodule BlogWeb.Router do
     pipe_through [:browser, :protected]
 
     # Add your protected routes here
+
   end
 
     scope "/", BlogWeb do
@@ -33,6 +35,8 @@ defmodule BlogWeb.Router do
       get "/", PageController, :index
 
       resources "/posts", PostController
+      live "/gallery", GalleryLive
+      live "/counter", CounterLive
   end
 
   # Other scopes may use custom stacks.
