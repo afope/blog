@@ -25,7 +25,7 @@
       <a href="mailto:fope.ojo@gmail.com?subject=Subject or nah?&body=Hey Afopefoluwa!"" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/envelope.svg") %>" ></a>
       <a href="https://github.com/afope" target="_blank"><img  src="<%= Routes.static_path(@conn, "/images/github-square.svg") %>"></a>
       <a href="https://www.instagram.com/abstractsth/" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/instagram-square.svg") %>"></a>
-      <a href="https://twitter.com/abstractsth" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/twitter.svg") %>"></a>
+      <a href="https://twitter.com/fopelitbot" target="_blank"><img src="<%= Routes.static_path(@conn, "/images/twitter.svg") %>"></a>
       <a href="https://www.linkedin.com/in/afopefoluwa-ojo/" target="_blank"><img  src="<%= Routes.static_path(@conn, "/images/linkedin-in.svg") %>"></a>
     </footer>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>

@@ -28,10 +28,9 @@
           <img class="name-hover__nine" src="<%= Routes.static_path(@conn, "/images/image_ten.png") %>">
           <span href="" class="hoverWrapper-ten">w</span>
           <img class="name-hover__ten" src="<%= Routes.static_path(@conn, "/images/image_eleven.png") %>">
-          <span href="" class="hoverWrapper-eleven">a</span>
+          <span href="" class="hoverWrapper-eleven">a.</span>
           <img class="name-hover__eleven" src="<%= Routes.static_path(@conn, "/images/image_ten.png") %>">
-      </strong>
-      and this <strong class="link-hover__container">
+      </strong> The <strong class="link-hover__container">
       <span class="hoverWrapper-one">s</span>
       <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/scene_1.png") %>">
       <span href="" class="hoverWrapper-two">c</span>
@@ -42,7 +41,7 @@
       <img class="name-hover__four" src="<%= Routes.static_path(@conn, "/images/scene_three.png") %>">
       <span href="" class="hoverWrapper-five">e</span>
       <img class="name-hover__five" src="<%= Routes.static_path(@conn, "/images/scene_five.png") %>">
-  </strong> is set in <strong class="link-hover__container">
+  </strong>: the world, <strong class="link-hover__container">
       <span class="hoverWrapper-one">a</span>
       <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/amsterdam_one.png") %>">
       <span href="" class="hoverWrapper-two">m</span>
@@ -68,10 +67,10 @@
           <img class="name-hover__five lagos" src="<%= Routes.static_path(@conn, "/images/lagos_five.png") %>">
       </strong>; on most days I feel like <strong class="link-hover__container">
       <a class="hoverWrapper-one">
-          somethign abstract
+          somethign abstract.
       </a>
       <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/abstract_one.png") %>">
-  </strong>. I have spent the past few years          <strong class="link-hover__container">
+  </strong>My time: <strong class="link-hover__container">
       <span class="hoverWrapper-one">c</span>
       <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/creating_one.png") %>">
       <span href="" class="hoverWrapper-two">r</span>
@@ -103,10 +102,7 @@
       <strong class="link-hover__container">
       <span class="hoverWrapper">novel</span>
       <iframe src="https://giphy.com/embed/ule4vhcY1xEKQ" width="480" height="480" frameBorder="0" class="hello__video" allowFullScreen></iframe><a href="https://giphy.com/gifs/reactionseditor-cat-typing-ule4vhcY1xEKQ"></a>
-  </strong> and tinkering with technology. I currently work in the
-      <strong class="link-hover__container">
-          <button class="blockchain__button"><span class="blockchain__span">blockchain space</span></button>
-      </strong>
+      </strong> and tinkering with technology. I currently work in the <span class="blockchain__button"><span class="blockchain__span">blockchain space</span></span>
   </h1>
 
 </div>

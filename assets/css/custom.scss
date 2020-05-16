@@ -20,8 +20,10 @@ h1 {
   font-family: 'Frank Ruhl Libre', serif;
   font-style: normal;
   font-weight: lighter;
+
   font-size: 72px;
   line-height: 86px;
+
   /* or 150% */
 
   color: #05008A;
@@ -286,14 +288,14 @@ h1 {
 
   .blockchain__button {
     width:auto;
-    font-size: 5rem;
     color: #ff6ec7;
   }
+
   .blockchain__button:hover .blockchain__span {
     display:none;
   }
   .blockchain__button:hover:before {
-    content:"The revolution is here!"
+    content:"revolution is here!"
   }
 }
 
@@ -309,4 +311,29 @@ footer {
     height: 25px;
     margin: 5px;
   }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .homepage__text {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: left;
+  }
+
+  .homepage {
+    width: 100%;
+    .blockchain__button {
+      width: auto;
+      font-size: 3rem;
+      color: #ff6ec7;
+      text-align: left;
+    }
+  }
+
+  .homepage__text {
+    width: 100%;
+    text-align: left;
+  }
+
 }
