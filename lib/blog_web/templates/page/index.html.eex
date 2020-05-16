@@ -67,7 +67,7 @@
           <img class="name-hover__five lagos" src="<%= Routes.static_path(@conn, "/images/lagos_five.png") %>">
       </strong>; on most days I feel like <strong class="link-hover__container">
       <a class="hoverWrapper-one">
-          somethign abstract.
+          sth abstract.
       </a>
       <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/abstract_one.png") %>">
   </strong>My time: <strong class="link-hover__container">

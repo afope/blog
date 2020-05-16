@@ -315,14 +315,20 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
-  .homepage__text {
-    font-size: 3rem;
-    line-height: 3rem;
-    text-align: left;
-  }
-
   .homepage {
     width: 100%;
+
+    .homepage__text {
+      margin-top: 0;
+      width: 100%;
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 3rem;
+      line-height: 3rem;
+      text-align: left;
+    }
+
     .blockchain__button {
       width: auto;
       font-size: 3rem;
@@ -331,9 +337,5 @@ footer {
     }
   }
 
-  .homepage__text {
-    width: 100%;
-    text-align: left;
-  }
 
 }
