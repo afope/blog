@@ -70,7 +70,7 @@
           sth abstract.
       </a>
       <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/abstract_one.png") %>">
-  </strong>My time: <strong class="link-hover__container">
+  </strong>I spend my time <strong class="link-hover__container">
       <span class="hoverWrapper-one">c</span>
       <img class="name-hover__one" src="<%= Routes.static_path(@conn, "/images/creating_one.png") %>">
       <span href="" class="hoverWrapper-two">r</span>
@@ -102,7 +102,10 @@
       <strong class="link-hover__container">
       <span class="hoverWrapper">novel</span>
       <iframe src="https://giphy.com/embed/ule4vhcY1xEKQ" width="480" height="480" frameBorder="0" class="hello__video" allowFullScreen></iframe><a href="https://giphy.com/gifs/reactionseditor-cat-typing-ule4vhcY1xEKQ"></a>
-      </strong> and tinkering with technology. I currently work in the <span class="blockchain__button"><span class="blockchain__span">blockchain space</span></span>
+      </strong> and tinkering with technology. I currently work in the <span class="blockchain__button--mobile"><span class="blockchain__span--mobile">blockchain space</span></span>
+      <strong class="link-hover__container">
+          <button class="blockchain__button"><span class="blockchain__span">blockchain space</span></button>
+      </strong>
   </h1>
 
 </div>

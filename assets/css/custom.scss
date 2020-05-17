@@ -289,6 +289,11 @@ h1 {
   .blockchain__button {
     width:auto;
     color: #ff6ec7;
+    font-size: 5rem;
+  }
+
+  .blockchain__button--mobile {
+    display: none;
   }
 
   .blockchain__button:hover .blockchain__span {
@@ -330,6 +335,22 @@ footer {
     }
 
     .blockchain__button {
+      display: none;
+    }
+
+    .blockchain__span {
+      display: none;
+    }
+
+    .blockchain__button--mobile {
+      display: inline;
+      width: auto;
+      font-size: 3rem;
+      color: #ff6ec7;
+      text-align: left;
+    }
+
+    .blockchain__span--mobile {
       width: auto;
       font-size: 3rem;
       color: #ff6ec7;
